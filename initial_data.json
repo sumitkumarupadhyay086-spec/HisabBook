@@ -1,0 +1,360 @@
+{
+  "profile": {
+    "name": "SUMIT KUMAR UPADHYAY",
+    "email": "Sumit@hisabbook.app",
+    "currency": "₹",
+    "openingBalance": 25000,
+    "pinLockEnabled": false,
+    "pinCode": ""
+  },
+  "budget": {
+    "monthlyLimit": 40000,
+    "categoryLimits": {
+      "Grocery": 6000,
+      "Food & Drinks": 4000,
+      "Rent": 12000,
+      "Petrol / Diesel": 3000,
+      "Electricity Bill": 1500,
+      "Shopping": 5000
+    }
+  },
+  "categories": [
+    {
+      "id": "cat_groc",
+      "name": "Grocery",
+      "type": "EXPENSE",
+      "icon": "shopping-cart",
+      "color": "#10b981"
+    },
+    {
+      "id": "cat_food",
+      "name": "Food & Drinks",
+      "type": "EXPENSE",
+      "icon": "utensils",
+      "color": "#f59e0b"
+    },
+    {
+      "id": "cat_veg",
+      "name": "Vegetables",
+      "type": "EXPENSE",
+      "icon": "carrot",
+      "color": "#84cc16"
+    },
+    {
+      "id": "cat_milk",
+      "name": "Milk & Dairy",
+      "type": "EXPENSE",
+      "icon": "milk",
+      "color": "#38bdf8"
+    },
+    {
+      "id": "cat_elec",
+      "name": "Electricity Bill",
+      "type": "EXPENSE",
+      "icon": "zap",
+      "color": "#eab308"
+    },
+    {
+      "id": "cat_water",
+      "name": "Water Bill",
+      "type": "EXPENSE",
+      "icon": "droplet",
+      "color": "#06b6d4"
+    },
+    {
+      "id": "cat_rech",
+      "name": "Mobile Recharge",
+      "type": "EXPENSE",
+      "icon": "smartphone",
+      "color": "#8b5cf6"
+    },
+    {
+      "id": "cat_net",
+      "name": "Internet",
+      "type": "EXPENSE",
+      "icon": "wifi",
+      "color": "#6366f1"
+    },
+    {
+      "id": "cat_rent",
+      "name": "Rent",
+      "type": "EXPENSE",
+      "icon": "home",
+      "color": "#ec4899"
+    },
+    {
+      "id": "cat_trans",
+      "name": "Transportation",
+      "type": "EXPENSE",
+      "icon": "bus",
+      "color": "#14b8a6"
+    },
+    {
+      "id": "cat_fuel",
+      "name": "Petrol / Diesel",
+      "type": "EXPENSE",
+      "icon": "fuel",
+      "color": "#f97316"
+    },
+    {
+      "id": "cat_shop",
+      "name": "Shopping",
+      "type": "EXPENSE",
+      "icon": "shopping-bag",
+      "color": "#d946ef"
+    },
+    {
+      "id": "cat_med",
+      "name": "Medical",
+      "type": "EXPENSE",
+      "icon": "heart-pulse",
+      "color": "#ef4444"
+    },
+    {
+      "id": "cat_edu",
+      "name": "Education",
+      "type": "EXPENSE",
+      "icon": "graduation-cap",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "cat_ent",
+      "name": "Entertainment",
+      "type": "EXPENSE",
+      "icon": "film",
+      "color": "#a855f7"
+    },
+    {
+      "id": "cat_trav",
+      "name": "Travel",
+      "type": "EXPENSE",
+      "icon": "plane",
+      "color": "#0284c7"
+    },
+    {
+      "id": "cat_emi",
+      "name": "EMI / Loan",
+      "type": "EXPENSE",
+      "icon": "landmark",
+      "color": "#64748b"
+    },
+    {
+      "id": "cat_oth_exp",
+      "name": "Other Expenses",
+      "type": "EXPENSE",
+      "icon": "circle-ellipsis",
+      "color": "#94a3b8"
+    },
+    {
+      "id": "cat_sal",
+      "name": "Salary",
+      "type": "INCOME",
+      "icon": "briefcase",
+      "color": "#10b981"
+    },
+    {
+      "id": "cat_biz",
+      "name": "Business Income",
+      "type": "INCOME",
+      "icon": "store",
+      "color": "#059669"
+    },
+    {
+      "id": "cat_free",
+      "name": "Freelancing",
+      "type": "INCOME",
+      "icon": "laptop",
+      "color": "#0d9488"
+    },
+    {
+      "id": "cat_onl",
+      "name": "Online Earnings",
+      "type": "INCOME",
+      "icon": "globe",
+      "color": "#0284c7"
+    },
+    {
+      "id": "cat_rent_inc",
+      "name": "Rental Inflow",
+      "type": "INCOME",
+      "icon": "key",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "cat_oth_inc",
+      "name": "Other Income",
+      "type": "INCOME",
+      "icon": "coins",
+      "color": "#8b5cf6"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx_1793714758808_lj3o",
+      "type": "EXPENSE",
+      "amount": 20,
+      "category": "Water Bill",
+      "date": "2026-11-03",
+      "time": "19:35",
+      "paymentMethod": "UPI",
+      "description": "",
+      "notes": "",
+      "recurring": false,
+      "createdAt": 1793714758808
+    },
+    {
+      "id": "tx_s1",
+      "type": "INCOME",
+      "amount": 65000,
+      "category": "Salary",
+      "date": "2026-11-01",
+      "time": "09:30",
+      "paymentMethod": "Bank",
+      "description": "Monthly Corporate Salary Credit",
+      "recurring": true,
+      "createdAt": 1791554452699
+    },
+    {
+      "id": "tx_s2",
+      "type": "EXPENSE",
+      "amount": 14000,
+      "category": "Rent",
+      "date": "2026-11-02",
+      "time": "11:00",
+      "paymentMethod": "UPI",
+      "description": "Apartment monthly maintenance and rent",
+      "recurring": true,
+      "createdAt": 1791640852699
+    },
+    {
+      "id": "tx_s3",
+      "type": "EXPENSE",
+      "amount": 4850,
+      "category": "Grocery",
+      "date": "2026-11-04",
+      "time": "18:45",
+      "paymentMethod": "Card",
+      "description": "Monthly rations & groceries from DMart",
+      "createdAt": 1791813652699
+    },
+    {
+      "id": "tx_s4",
+      "type": "EXPENSE",
+      "amount": 1350,
+      "category": "Electricity Bill",
+      "date": "2026-11-06",
+      "time": "10:15",
+      "paymentMethod": "UPI",
+      "description": "Torrent Power bill payment",
+      "createdAt": 1791986452699
+    },
+    {
+      "id": "tx_s5",
+      "type": "EXPENSE",
+      "amount": 2100,
+      "category": "Petrol / Diesel",
+      "date": "2026-11-08",
+      "time": "08:30",
+      "paymentMethod": "Cash",
+      "description": "Indian Oil petrol bunk full tank refill",
+      "createdAt": 1792159252699
+    },
+    {
+      "id": "tx_s6",
+      "type": "EXPENSE",
+      "amount": 999,
+      "category": "Internet",
+      "date": "2026-11-10",
+      "time": "15:20",
+      "paymentMethod": "UPI",
+      "description": "JioFiber 100Mbps unlimited recharge",
+      "createdAt": 1792332052699
+    },
+    {
+      "id": "tx_s7",
+      "type": "INCOME",
+      "amount": 12500,
+      "category": "Freelancing",
+      "date": "2026-11-12",
+      "time": "19:00",
+      "paymentMethod": "Bank",
+      "description": "Client web app frontend milestone payment",
+      "createdAt": 1792504852699
+    },
+    {
+      "id": "tx_s8",
+      "type": "EXPENSE",
+      "amount": 1850,
+      "category": "Food & Drinks",
+      "date": "2026-11-14",
+      "time": "21:10",
+      "paymentMethod": "UPI",
+      "description": "Weekend family dinner at restaurant",
+      "createdAt": 1792677652699
+    },
+    {
+      "id": "tx_s9",
+      "type": "EXPENSE",
+      "amount": 680,
+      "category": "Vegetables",
+      "date": "2026-11-16",
+      "time": "08:15",
+      "paymentMethod": "Cash",
+      "description": "Weekly fresh vegetables & fruits market",
+      "createdAt": 1792850452699
+    },
+    {
+      "id": "tx_s10",
+      "type": "EXPENSE",
+      "amount": 3200,
+      "category": "Shopping",
+      "date": "2026-11-18",
+      "time": "17:30",
+      "paymentMethod": "Card",
+      "description": "Casual footwear and formal shirts",
+      "createdAt": 1793023252699
+    },
+    {
+      "id": "tx_s11",
+      "type": "INCOME",
+      "amount": 4500,
+      "category": "Online Earnings",
+      "date": "2026-11-20",
+      "time": "14:00",
+      "paymentMethod": "Bank",
+      "description": "Affiliate commission & dividends",
+      "createdAt": 1793196052699
+    },
+    {
+      "id": "tx_s12",
+      "type": "EXPENSE",
+      "amount": 820,
+      "category": "Medical",
+      "date": "2026-11-22",
+      "time": "19:40",
+      "paymentMethod": "UPI",
+      "description": "Apollo Pharmacy vitamins and general meds",
+      "createdAt": 1793368852699
+    }
+  ],
+  "savingsGoals": [
+    {
+      "id": "goal_1",
+      "name": "Emergency Fund",
+      "targetAmount": 100000,
+      "currentAmount": 48000,
+      "targetDate": "2026-12-31",
+      "category": "Emergency",
+      "createdAt": 1791122452579
+    },
+    {
+      "id": "goal_2",
+      "name": "New Smartphone",
+      "targetAmount": 35000,
+      "currentAmount": 22000,
+      "targetDate": "2026-10-15",
+      "category": "Gadget",
+      "createdAt": 1792418452579
+    }
+  ]
+}
